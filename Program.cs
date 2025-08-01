@@ -24,19 +24,6 @@ class YoutubeChannel
         });
     }
 
-
-    public void UsersSubscribed()
-    {
-        if (VideoUploaded != null)
-        {
-            Console.WriteLine("There are subscribers to the channel.");
-        }
-        else
-        {
-            Console.WriteLine("There are no subscribers to the channel.");
-        }
-    }
-
 }
 
 
@@ -49,9 +36,9 @@ class Person
 
     public Person(YoutubeChannel channel, string name)
     {
-
-        channel.VideoUploaded += Channel_VideoUploaded;
-        Name = name;
+     
+            channel.VideoUploaded += Channel_VideoUploaded;
+            Name = name;
     }
 
     private void Channel_VideoUploaded(object? sender, VideoEventArgs e)
@@ -59,13 +46,9 @@ class Person
         Console.WriteLine($"Person {Name} has been notiffied with video: {e.VideoTitle}");
 
     }
-
-    public void Unsubscribe(YoutubeChannel channel)
-    {
-        channel.VideoUploaded -= Channel_VideoUploaded;
-    }
-
 }
+
+
 
 class Program
 {
@@ -73,9 +56,6 @@ class Program
     {
         YoutubeChannel channel = new YoutubeChannel();
         Person person1 = new Person(channel, "Alice");
-        channel.UsersSubscribed();
         channel.UploadVideo();
-        person1.Unsubscribe(channel);
-        channel.UsersSubscribed();
     }
 }
