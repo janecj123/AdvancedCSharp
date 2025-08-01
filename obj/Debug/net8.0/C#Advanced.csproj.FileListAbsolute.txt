@@ -1,0 +1,14 @@
+D:\C#Advanced\C#Advanced\obj\Debug\net8.0\C#Advanced.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#Advanced\C#Advanced\obj\Debug\net8.0\C#Advanced.AssemblyInfoInputs.cache
+D:\C#Advanced\C#Advanced\obj\Debug\net8.0\C#Advanced.AssemblyInfo.cs
+D:\C#Advanced\C#Advanced\obj\Debug\net8.0\C#Advanced.csproj.CoreCompileInputs.cache
+D:\C#Advanced\C#Advanced\bin\Debug\net8.0\C#Advanced.exe
+D:\C#Advanced\C#Advanced\bin\Debug\net8.0\C#Advanced.deps.json
+D:\C#Advanced\C#Advanced\bin\Debug\net8.0\C#Advanced.runtimeconfig.json
+D:\C#Advanced\C#Advanced\bin\Debug\net8.0\C#Advanced.dll
+D:\C#Advanced\C#Advanced\bin\Debug\net8.0\C#Advanced.pdb
+D:\C#Advanced\C#Advanced\obj\Debug\net8.0\C#Advanced.dll
+D:\C#Advanced\C#Advanced\obj\Debug\net8.0\refint\C#Advanced.dll
+D:\C#Advanced\C#Advanced\obj\Debug\net8.0\C#Advanced.pdb
+D:\C#Advanced\C#Advanced\obj\Debug\net8.0\C#Advanced.genruntimeconfig.cache
+D:\C#Advanced\C#Advanced\obj\Debug\net8.0\ref\C#Advanced.dll
