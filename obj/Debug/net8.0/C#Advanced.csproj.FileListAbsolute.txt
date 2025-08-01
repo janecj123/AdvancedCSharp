@@ -12,3 +12,4 @@ D:\C#Advanced\C#Advanced\obj\Debug\net8.0\refint\C#Advanced.dll
 D:\C#Advanced\C#Advanced\obj\Debug\net8.0\C#Advanced.pdb
 D:\C#Advanced\C#Advanced\obj\Debug\net8.0\C#Advanced.genruntimeconfig.cache
 D:\C#Advanced\C#Advanced\obj\Debug\net8.0\ref\C#Advanced.dll
+D:\C#Advanced\C#Advanced\obj\Debug\net8.0\C#Advanced.sourcelink.json

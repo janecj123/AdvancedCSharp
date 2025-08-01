@@ -24,6 +24,18 @@ class YoutubeChannel
         });
     }
 
+    public void NumberOfSubscribers() 
+    { 
+        if(VideoUploaded != null)
+        {
+            Console.WriteLine("There are subscribers to this channel.");
+        }
+        else
+        {
+            Console.WriteLine("There are no subscribers to this channel.");
+        }
+    }
+
 }
 
 
@@ -46,6 +58,12 @@ class Person
         Console.WriteLine($"Person {Name} has been notiffied with video: {e.VideoTitle}");
 
     }
+
+    public void Unsubscribe(YoutubeChannel channel)
+    {
+        channel.VideoUploaded -= Channel_VideoUploaded;
+    
+    }
 }
 
 
@@ -56,6 +74,9 @@ class Program
     {
         YoutubeChannel channel = new YoutubeChannel();
         Person person1 = new Person(channel, "Alice");
+        channel.NumberOfSubscribers();
         channel.UploadVideo();
+        person1.Unsubscribe(channel);
+        channel.NumberOfSubscribers();
     }
 }
