@@ -40,12 +40,12 @@ namespace YeildWithColection
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return new InventoryEnumerator(this);
+            return this.GetEnumerator();
         }
 
-        IEnumerator<InventoryItem> IEnumerable<InventoryItem>.GetEnumerator()
+        public IEnumerator<InventoryItem> GetEnumerator()
         {
-           return new InventoryEnumerator(this);
+           return   new InventoryEnumerator(this);
         }
 
         public class InventoryEnumerator : IEnumerator<InventoryItem> 
